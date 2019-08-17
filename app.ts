@@ -1,10 +1,5 @@
-class Aluno{
-    constructor(public nome: string){
-    }
-    exibir(){console.log("Nome: "+this.nome)}
+import {Alu} from "./base-escola"
 
-}
-
-let valtanais = new Aluno("Valter Junior")
+let valtanais = new Alu("Valter Junior")
 
 valtanais.exibir

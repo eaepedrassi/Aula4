@@ -1,9 +1,5 @@
-var Aluno = /** @class */ (function () {
-    function Aluno(nome) {
-        this.nome = nome;
-    }
-    Aluno.prototype.exibir = function () { console.log("Nome: " + this.nome); };
-    return Aluno;
-}());
-var valtanais = new Aluno("Valter Junior");
+"use strict";
+exports.__esModule = true;
+var base_escola_1 = require("./base-escola");
+var valtanais = new base_escola_1.Alu("Valter Junior");
 valtanais.exibir;
